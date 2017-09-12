@@ -1,0 +1,34 @@
+body {
+  background-color: #888;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  &.home {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+// Normalize CSS 
+a:hover {
+  text-decoration: none;  
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.bg {
+  background-size: cover;
+  background-position: center;
+}
+
+.border-right {
+  border-right: 2px solid #eee;
+}
+
+.text-right {
+  text-align: right;
+}

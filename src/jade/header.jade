@@ -1,0 +1,42 @@
+doctype html
+html(lang='en')
+  head
+    title Wikipedia Redesign
+    // Required meta tags
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    // Bootstrap CSS
+    link(href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700", rel="stylesheet")
+    link(rel='stylesheet', href='css/font-awesome.min.css')
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    link(rel='stylesheet', href='css/styles.css')
+  body.home
+  header
+    .container
+      .row
+        .col-lg-2
+          h1.logo
+            a(href="/")
+              img(src="images/logo.png")
+        .col-lg-8
+          nav
+            ul 
+              li
+                a(href="#" class="is-active") MAIN PAGE
+              li
+                a(href="#") CONTENTS 
+              li
+                a(href="#") FEATURED CONTENT 
+              li
+                a(href="#") CURRENT EVENTS 
+              li
+                a(href="#") RANDOM ARTICLE
+        .col-lg-2.search
+          .icon 
+            i(class="fa fa-search", aria-hidden="true")
+            input(type="text")
+          a(href="#") 
+            img(src="images/avatar.jpg")
+          
+
+          
